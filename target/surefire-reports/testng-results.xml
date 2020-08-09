@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="58" total="101" passed="43">
+  <reporter-output>
+  </reporter-output>
+  <suite name="demo.com" duration-ms="188459" started-at="2020-08-09T14:02:53 IST" finished-at="2020-08-09T14:06:01 IST">
+    <groups>
+      <group name="Sanity">
+        <method signature="PageAddress_Test.TC01()[pri:27, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="TC01" class="com.qa.testcases.PageAddress_Test"/>
+        <method signature="PageAddress_Test.TC02()[pri:28, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="TC02" class="com.qa.testcases.PageAddress_Test"/>
+        <method signature="PageAddress_Test.TC03(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.Integer, java.lang.Long, org.testng.ITestContext)[pri:29, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="TC03" class="com.qa.testcases.PageAddress_Test"/>
+        <method signature="PageAddress_Test.TC04(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.Integer, java.lang.Long)[pri:30, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="TC04" class="com.qa.testcases.PageAddress_Test"/>
+        <method signature="PageAddress_Test.TC05()[pri:31, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="TC05" class="com.qa.testcases.PageAddress_Test"/>
+        <method signature="PageAddress_Test.TC06()[pri:32, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="TC06" class="com.qa.testcases.PageAddress_Test"/>
+        <method signature="PageBankWirePayment_Test.TC01(org.testng.ITestContext)[pri:41, instance:com.qa.testcases.PageBankWirePayment_Test@7791a895]" name="TC01" class="com.qa.testcases.PageBankWirePayment_Test"/>
+        <method signature="PageBankWirePayment_Test.TC02()[pri:42, instance:com.qa.testcases.PageBankWirePayment_Test@7791a895]" name="TC02" class="com.qa.testcases.PageBankWirePayment_Test"/>
+        <method signature="PageBankWirePayment_Test.TC03()[pri:43, instance:com.qa.testcases.PageBankWirePayment_Test@7791a895]" name="TC03" class="com.qa.testcases.PageBankWirePayment_Test"/>
+        <method signature="PageCart_Test.verifyCheckOut(java.lang.String, java.lang.String, java.lang.Integer, org.testng.ITestContext)[pri:8, instance:com.qa.testcases.PageCart_Test@5a8e6209]" name="verifyCheckOut" class="com.qa.testcases.PageCart_Test"/>
+        <method signature="PageOrderConfirmation_Test.TC01(org.testng.ITestContext)[pri:44, instance:com.qa.testcases.PageOrderConfirmation_Test@3a5ed7a6]" name="TC01" class="com.qa.testcases.PageOrderConfirmation_Test"/>
+        <method signature="PageOrderConfirmation_Test.TC02()[pri:45, instance:com.qa.testcases.PageOrderConfirmation_Test@3a5ed7a6]" name="TC02" class="com.qa.testcases.PageOrderConfirmation_Test"/>
+        <method signature="PageOrderHistory_Test.TC01(org.testng.ITestContext)[pri:46, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC01" class="com.qa.testcases.PageOrderHistory_Test"/>
+        <method signature="PageOrderHistory_Test.TC02(org.testng.ITestContext)[pri:47, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC02" class="com.qa.testcases.PageOrderHistory_Test"/>
+        <method signature="PageOrderHistory_Test.TC04(org.testng.ITestContext)[pri:49, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC04" class="com.qa.testcases.PageOrderHistory_Test"/>
+        <method signature="PageOrderHistory_Test.TC05(org.testng.ITestContext)[pri:50, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC05" class="com.qa.testcases.PageOrderHistory_Test"/>
+        <method signature="PageOrderHistory_Test.TC06()[pri:51, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC06" class="com.qa.testcases.PageOrderHistory_Test"/>
+        <method signature="PageOrderHistory_Test.TC07(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.Integer, java.lang.Long, org.testng.ITestContext)[pri:52, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC07" class="com.qa.testcases.PageOrderHistory_Test"/>
+        <method signature="PageOrderHistory_Test.TC08(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.Integer, java.lang.Long)[pri:53, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC08" class="com.qa.testcases.PageOrderHistory_Test"/>
+        <method signature="PageOrderHistory_Test.TC09(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:54, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC09" class="com.qa.testcases.PageOrderHistory_Test"/>
+        <method signature="PageOrderHistory_Test.TC10(org.testng.ITestContext)[pri:55, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC10" class="com.qa.testcases.PageOrderHistory_Test"/>
+        <method signature="PageOrderHistory_Test.TC11(org.testng.ITestContext)[pri:56, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC11" class="com.qa.testcases.PageOrderHistory_Test"/>
+        <method signature="PagePayment_Test.TC01(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:38, instance:com.qa.testcases.PagePayment_Test@7d907bac]" name="TC01" class="com.qa.testcases.PagePayment_Test"/>
+        <method signature="PagePayment_Test.TC02(org.testng.ITestContext)[pri:39, instance:com.qa.testcases.PagePayment_Test@7d907bac]" name="TC02" class="com.qa.testcases.PagePayment_Test"/>
+        <method signature="PageShipping_Test.TC01(org.testng.ITestContext)[pri:33, instance:com.qa.testcases.PageShipping_Test@1f28c152]" name="TC01" class="com.qa.testcases.PageShipping_Test"/>
+        <method signature="PageShipping_Test.TC02()[pri:34, instance:com.qa.testcases.PageShipping_Test@1f28c152]" name="TC02" class="com.qa.testcases.PageShipping_Test"/>
+        <method signature="PageShipping_Test.TC03()[pri:35, instance:com.qa.testcases.PageShipping_Test@1f28c152]" name="TC03" class="com.qa.testcases.PageShipping_Test"/>
+        <method signature="PageShipping_Test.TC04()[pri:36, instance:com.qa.testcases.PageShipping_Test@1f28c152]" name="TC04" class="com.qa.testcases.PageShipping_Test"/>
+        <method signature="PageShipping_Test.TC05()[pri:37, instance:com.qa.testcases.PageShipping_Test@1f28c152]" name="TC05" class="com.qa.testcases.PageShipping_Test"/>
+        <method signature="PageSignIn_Test.TC01()[pri:17, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="TC01" class="com.qa.testcases.PageSignIn_Test"/>
+        <method signature="PageSignIn_Test.TC02()[pri:18, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="TC02" class="com.qa.testcases.PageSignIn_Test"/>
+        <method signature="PageSignIn_Test.TC04()[pri:20, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="TC04" class="com.qa.testcases.PageSignIn_Test"/>
+        <method signature="PageSignIn_Test.TC05()[pri:21, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="TC05" class="com.qa.testcases.PageSignIn_Test"/>
+        <method signature="PageSignIn_Test.TC06()[pri:22, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="TC06" class="com.qa.testcases.PageSignIn_Test"/>
+        <method signature="PageSignIn_Test.TC07()[pri:23, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="TC07" class="com.qa.testcases.PageSignIn_Test"/>
+        <method signature="PageSignIn_Test.TC08()[pri:24, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="TC08" class="com.qa.testcases.PageSignIn_Test"/>
+        <method signature="PageSignIn_Test.TC09(org.testng.ITestContext)[pri:25, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="TC09" class="com.qa.testcases.PageSignIn_Test"/>
+        <method signature="PageSummary_Test.verify_CartProductDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="verify_CartProductDetails" class="com.qa.testcases.PageSummary_Test"/>
+        <method signature="PageSummary_Test.verify_ContinueShoppingFeature()[pri:13, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="verify_ContinueShoppingFeature" class="com.qa.testcases.PageSummary_Test"/>
+        <method signature="PageSummary_Test.verify_ProceedToCheckOutFeature()[pri:14, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="verify_ProceedToCheckOutFeature" class="com.qa.testcases.PageSummary_Test"/>
+        <method signature="PageSummary_Test.verify_ProductAvailabilityStatus(java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="verify_ProductAvailabilityStatus" class="com.qa.testcases.PageSummary_Test"/>
+        <method signature="PageSummary_Test.verify_ProductCount(org.testng.ITestContext)[pri:11, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="verify_ProductCount" class="com.qa.testcases.PageSummary_Test"/>
+        <method signature="PageSummary_Test.verify_ProductDetails(java.lang.String, org.testng.ITestContext)[pri:10, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="verify_ProductDetails" class="com.qa.testcases.PageSummary_Test"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test name="Demo Test" duration-ms="188459" started-at="2020-08-09T14:02:53 IST" finished-at="2020-08-09T14:06:01 IST">
+      <class name="com.qa.testcases.PageOrderHistory_Test">
+        <test-method status="PASS" signature="setupBeforeClass()[pri:0, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="setupBeforeClass" is-config="true" duration-ms="20" started-at="2020-08-09T14:05:21 IST" finished-at="2020-08-09T14:05:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeClass -->
+        <test-method status="PASS" signature="TC01(org.testng.ITestContext)[pri:46, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC01" duration-ms="189" started-at="2020-08-09T14:05:21 IST" finished-at="2020-08-09T14:05:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method status="PASS" signature="TC02(org.testng.ITestContext)[pri:47, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC02" duration-ms="213" started-at="2020-08-09T14:05:21 IST" finished-at="2020-08-09T14:05:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method status="PASS" signature="TC04(org.testng.ITestContext)[pri:49, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC04" duration-ms="31845" started-at="2020-08-09T14:05:22 IST" finished-at="2020-08-09T14:05:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04 -->
+        <test-method status="PASS" signature="TC05(org.testng.ITestContext)[pri:50, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC05" duration-ms="311" started-at="2020-08-09T14:05:53 IST" finished-at="2020-08-09T14:05:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05 -->
+        <test-method status="PASS" signature="TC06()[pri:51, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC06" duration-ms="540" started-at="2020-08-09T14:05:54 IST" finished-at="2020-08-09T14:05:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06 -->
+        <test-method status="PASS" signature="TC07(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.Integer, java.lang.Long, org.testng.ITestContext)[pri:52, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC07" duration-ms="585" started-at="2020-08-09T14:05:54 IST" data-provider="Data" finished-at="2020-08-09T14:05:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Appium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestPractise.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Virar West]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Mumbai,]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Texas]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10011]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1234567898]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[9876543212]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07 -->
+        <test-method status="PASS" signature="TC08(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.Integer, java.lang.Long)[pri:53, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC08" duration-ms="669" started-at="2020-08-09T14:05:55 IST" data-provider="DataTwo" finished-at="2020-08-09T14:05:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Appium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestPractise.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Virar West]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Mumbai,]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Iowa]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10011]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1234567898]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[9876543212]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08 -->
+        <test-method status="PASS" signature="TC09(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:54, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC09" duration-ms="848" started-at="2020-08-09T14:05:56 IST" data-provider="DataThree" finished-at="2020-08-09T14:05:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Orange]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[$16.51]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09 -->
+        <test-method status="PASS" signature="TC10(org.testng.ITestContext)[pri:55, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC10" duration-ms="3353" started-at="2020-08-09T14:05:56 IST" finished-at="2020-08-09T14:06:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10 -->
+        <test-method status="PASS" signature="TC11(org.testng.ITestContext)[pri:56, instance:com.qa.testcases.PageOrderHistory_Test@6325a3ee]" name="TC11" duration-ms="1399" started-at="2020-08-09T14:06:00 IST" finished-at="2020-08-09T14:06:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11 -->
+      </class> <!-- com.qa.testcases.PageOrderHistory_Test -->
+      <class name="com.qa.testcases.PageBankWirePayment_Test">
+        <test-method status="PASS" signature="setupBeforeClass()[pri:0, instance:com.qa.testcases.PageBankWirePayment_Test@7791a895]" name="setupBeforeClass" is-config="true" duration-ms="1" started-at="2020-08-09T14:05:13 IST" finished-at="2020-08-09T14:05:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeClass -->
+        <test-method status="PASS" signature="TC01(org.testng.ITestContext)[pri:41, instance:com.qa.testcases.PageBankWirePayment_Test@7791a895]" name="TC01" duration-ms="55" started-at="2020-08-09T14:05:13 IST" finished-at="2020-08-09T14:05:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method status="PASS" signature="TC02()[pri:42, instance:com.qa.testcases.PageBankWirePayment_Test@7791a895]" name="TC02" duration-ms="53" started-at="2020-08-09T14:05:13 IST" finished-at="2020-08-09T14:05:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method status="PASS" signature="TC03()[pri:43, instance:com.qa.testcases.PageBankWirePayment_Test@7791a895]" name="TC03" duration-ms="2562" started-at="2020-08-09T14:05:13 IST" finished-at="2020-08-09T14:05:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03 -->
+      </class> <!-- com.qa.testcases.PageBankWirePayment_Test -->
+      <class name="com.qa.testcases.PageShipping_Test">
+        <test-method status="PASS" signature="setupBeforeClass()[pri:0, instance:com.qa.testcases.PageShipping_Test@1f28c152]" name="setupBeforeClass" is-config="true" duration-ms="1" started-at="2020-08-09T14:04:21 IST" finished-at="2020-08-09T14:04:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeClass -->
+        <test-method status="PASS" signature="TC01(org.testng.ITestContext)[pri:33, instance:com.qa.testcases.PageShipping_Test@1f28c152]" name="TC01" duration-ms="133" started-at="2020-08-09T14:04:21 IST" finished-at="2020-08-09T14:04:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method status="PASS" signature="TC02()[pri:34, instance:com.qa.testcases.PageShipping_Test@1f28c152]" name="TC02" duration-ms="60" started-at="2020-08-09T14:04:22 IST" finished-at="2020-08-09T14:04:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method status="PASS" signature="TC03()[pri:35, instance:com.qa.testcases.PageShipping_Test@1f28c152]" name="TC03" duration-ms="31448" started-at="2020-08-09T14:04:22 IST" finished-at="2020-08-09T14:04:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03 -->
+        <test-method status="PASS" signature="TC04()[pri:36, instance:com.qa.testcases.PageShipping_Test@1f28c152]" name="TC04" duration-ms="15559" started-at="2020-08-09T14:04:53 IST" finished-at="2020-08-09T14:05:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04 -->
+        <test-method status="PASS" signature="TC05()[pri:37, instance:com.qa.testcases.PageShipping_Test@1f28c152]" name="TC05" duration-ms="1978" started-at="2020-08-09T14:05:09 IST" finished-at="2020-08-09T14:05:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05 -->
+      </class> <!-- com.qa.testcases.PageShipping_Test -->
+      <class name="com.qa.testcases.PageOrderConfirmation_Test">
+        <test-method status="PASS" signature="setupBeforeClass()[pri:0, instance:com.qa.testcases.PageOrderConfirmation_Test@3a5ed7a6]" name="setupBeforeClass" is-config="true" duration-ms="1" started-at="2020-08-09T14:05:15 IST" finished-at="2020-08-09T14:05:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeClass -->
+        <test-method status="PASS" signature="TC01(org.testng.ITestContext)[pri:44, instance:com.qa.testcases.PageOrderConfirmation_Test@3a5ed7a6]" name="TC01" duration-ms="300" started-at="2020-08-09T14:05:15 IST" finished-at="2020-08-09T14:05:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method status="PASS" signature="TC02()[pri:45, instance:com.qa.testcases.PageOrderConfirmation_Test@3a5ed7a6]" name="TC02" duration-ms="5483" started-at="2020-08-09T14:05:16 IST" finished-at="2020-08-09T14:05:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+      </class> <!-- com.qa.testcases.PageOrderConfirmation_Test -->
+      <class name="com.qa.testcases.PageSummary_Test">
+        <test-method status="PASS" signature="setupBeforeClass()[pri:0, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="setupBeforeClass" is-config="true" duration-ms="24" started-at="2020-08-09T14:03:15 IST" finished-at="2020-08-09T14:03:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeClass -->
+        <test-method status="PASS" signature="verify_CartProductDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="verify_CartProductDetails" duration-ms="255" started-at="2020-08-09T14:03:15 IST" data-provider="TestDataCartProductDetails" finished-at="2020-08-09T14:03:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$16.51]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Orange]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_CartProductDetails -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="setupBeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-09T14:03:15 IST" finished-at="2020-08-09T14:03:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="setupBeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-09T14:03:15 IST" finished-at="2020-08-09T14:03:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="verify_ProductDetails(java.lang.String, org.testng.ITestContext)[pri:10, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="verify_ProductDetails" duration-ms="579" started-at="2020-08-09T14:03:15 IST" data-provider="TestDataProductDetails" finished-at="2020-08-09T14:03:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ProductDetails -->
+        <test-method status="PASS" signature="verify_ProductCount(org.testng.ITestContext)[pri:11, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="verify_ProductCount" duration-ms="39" started-at="2020-08-09T14:03:16 IST" finished-at="2020-08-09T14:03:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ProductCount -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="setupBeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-09T14:03:16 IST" finished-at="2020-08-09T14:03:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="setupBeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-09T14:03:16 IST" finished-at="2020-08-09T14:03:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="verify_ProductAvailabilityStatus(java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="verify_ProductAvailabilityStatus" duration-ms="121" started-at="2020-08-09T14:03:16 IST" data-provider="TestDataProductAvailabilityStatus" finished-at="2020-08-09T14:03:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$16.51]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[In stock]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ProductAvailabilityStatus -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="setupBeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-09T14:03:16 IST" finished-at="2020-08-09T14:03:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="verify_ContinueShoppingFeature()[pri:13, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="verify_ContinueShoppingFeature" duration-ms="2755" started-at="2020-08-09T14:03:16 IST" finished-at="2020-08-09T14:03:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ContinueShoppingFeature -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="setupBeforeMethod" is-config="true" duration-ms="1" started-at="2020-08-09T14:03:18 IST" finished-at="2020-08-09T14:03:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="verify_ProceedToCheckOutFeature()[pri:14, instance:com.qa.testcases.PageSummary_Test@4b4523f8]" name="verify_ProceedToCheckOutFeature" duration-ms="33267" started-at="2020-08-09T14:03:18 IST" finished-at="2020-08-09T14:03:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ProceedToCheckOutFeature -->
+      </class> <!-- com.qa.testcases.PageSummary_Test -->
+      <class name="com.qa.testcases.PagePayment_Test">
+        <test-method status="PASS" signature="setupBeforeClass()[pri:0, instance:com.qa.testcases.PagePayment_Test@7d907bac]" name="setupBeforeClass" is-config="true" duration-ms="1" started-at="2020-08-09T14:05:11 IST" finished-at="2020-08-09T14:05:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeClass -->
+        <test-method status="PASS" signature="TC01(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:38, instance:com.qa.testcases.PagePayment_Test@7d907bac]" name="TC01" duration-ms="690" started-at="2020-08-09T14:05:11 IST" data-provider="Data" finished-at="2020-08-09T14:05:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Orange]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[In stock]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[$16.51]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PagePayment_Test@7d907bac]" name="setupBeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-09T14:05:11 IST" finished-at="2020-08-09T14:05:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PagePayment_Test@7d907bac]" name="setupBeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-09T14:05:11 IST" finished-at="2020-08-09T14:05:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="TC02(org.testng.ITestContext)[pri:39, instance:com.qa.testcases.PagePayment_Test@7d907bac]" name="TC02" duration-ms="1339" started-at="2020-08-09T14:05:11 IST" finished-at="2020-08-09T14:05:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+      </class> <!-- com.qa.testcases.PagePayment_Test -->
+      <class name="com.qa.testcases.PageSignIn_Test">
+        <test-method status="PASS" signature="setupBeforeClass()[pri:0, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="setupBeforeClass" is-config="true" duration-ms="2" started-at="2020-08-09T14:03:52 IST" finished-at="2020-08-09T14:03:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeClass -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="setupBeforeMethod" is-config="true" duration-ms="381" started-at="2020-08-09T14:03:52 IST" finished-at="2020-08-09T14:03:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="TC01()[pri:17, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="TC01" duration-ms="2630" started-at="2020-08-09T14:03:52 IST" finished-at="2020-08-09T14:03:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="setupBeforeMethod" is-config="true" duration-ms="192" started-at="2020-08-09T14:03:55 IST" finished-at="2020-08-09T14:03:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="TC02()[pri:18, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="TC02" duration-ms="759" started-at="2020-08-09T14:03:55 IST" finished-at="2020-08-09T14:03:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="setupBeforeMethod" is-config="true" duration-ms="172" started-at="2020-08-09T14:03:56 IST" finished-at="2020-08-09T14:03:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="TC04()[pri:20, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="TC04" duration-ms="1883" started-at="2020-08-09T14:03:56 IST" finished-at="2020-08-09T14:03:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04 -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="setupBeforeMethod" is-config="true" duration-ms="211" started-at="2020-08-09T14:03:58 IST" finished-at="2020-08-09T14:03:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="TC05()[pri:21, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="TC05" duration-ms="1935" started-at="2020-08-09T14:03:58 IST" finished-at="2020-08-09T14:04:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05 -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="setupBeforeMethod" is-config="true" duration-ms="291" started-at="2020-08-09T14:04:00 IST" finished-at="2020-08-09T14:04:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="TC06()[pri:22, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="TC06" duration-ms="1704" started-at="2020-08-09T14:04:00 IST" finished-at="2020-08-09T14:04:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06 -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="setupBeforeMethod" is-config="true" duration-ms="242" started-at="2020-08-09T14:04:02 IST" finished-at="2020-08-09T14:04:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="TC07()[pri:23, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="TC07" duration-ms="2000" started-at="2020-08-09T14:04:02 IST" finished-at="2020-08-09T14:04:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07 -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="setupBeforeMethod" is-config="true" duration-ms="301" started-at="2020-08-09T14:04:04 IST" finished-at="2020-08-09T14:04:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="TC08()[pri:24, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="TC08" duration-ms="1478" started-at="2020-08-09T14:04:04 IST" finished-at="2020-08-09T14:04:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08 -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="setupBeforeMethod" is-config="true" duration-ms="330" started-at="2020-08-09T14:04:06 IST" finished-at="2020-08-09T14:04:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="TC09(org.testng.ITestContext)[pri:25, instance:com.qa.testcases.PageSignIn_Test@731a74c]" name="TC09" duration-ms="2311" started-at="2020-08-09T14:04:06 IST" finished-at="2020-08-09T14:04:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09 -->
+      </class> <!-- com.qa.testcases.PageSignIn_Test -->
+      <class name="com.qa.testcases.PageCart_Test">
+        <test-method status="PASS" signature="setupBeforeClass()[pri:0, instance:com.qa.testcases.PageCart_Test@5a8e6209]" name="setupBeforeClass" is-config="true" duration-ms="94" started-at="2020-08-09T14:02:53 IST" finished-at="2020-08-09T14:02:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeClass -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageCart_Test@5a8e6209]" name="setupBeforeMethod" is-config="true" duration-ms="16339" started-at="2020-08-09T14:02:54 IST" finished-at="2020-08-09T14:03:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="verifyCheckOut(java.lang.String, java.lang.String, java.lang.Integer, org.testng.ITestContext)[pri:8, instance:com.qa.testcases.PageCart_Test@5a8e6209]" name="verifyCheckOut" duration-ms="4364" started-at="2020-08-09T14:03:10 IST" data-provider="TestDataVerifyCheckOut" finished-at="2020-08-09T14:03:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$16.51]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckOut -->
+        <test-method status="PASS" signature="setupAfterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.PageCart_Test@5a8e6209]" name="setupAfterMethod" is-config="true" duration-ms="28" started-at="2020-08-09T14:03:15 IST" finished-at="2020-08-09T14:03:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckOut status=SUCCESS method=PageCart_Test.verifyCheckOut(java.lang.String, java.lang.String, java.lang.Integer, org.testng.ITestContext)[pri:8, instance:com.qa.testcases.PageCart_Test@5a8e6209] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterMethod -->
+      </class> <!-- com.qa.testcases.PageCart_Test -->
+      <class name="com.qa.testcases.PageAddress_Test">
+        <test-method status="PASS" signature="setupBeforeClass()[pri:0, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="setupBeforeClass" is-config="true" duration-ms="1" started-at="2020-08-09T14:04:09 IST" finished-at="2020-08-09T14:04:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeClass -->
+        <test-method status="PASS" signature="TC01()[pri:27, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="TC01" duration-ms="1423" started-at="2020-08-09T14:04:09 IST" finished-at="2020-08-09T14:04:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="setupBeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-09T14:04:09 IST" finished-at="2020-08-09T14:04:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="setupAfterMethod()[pri:0, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="setupAfterMethod" is-config="true" duration-ms="1" started-at="2020-08-09T14:04:10 IST" finished-at="2020-08-09T14:04:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterMethod -->
+        <test-method status="PASS" signature="TC02()[pri:28, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="TC02" duration-ms="5157" started-at="2020-08-09T14:04:10 IST" finished-at="2020-08-09T14:04:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="setupBeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-09T14:04:10 IST" finished-at="2020-08-09T14:04:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="setupAfterMethod()[pri:0, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="setupAfterMethod" is-config="true" duration-ms="0" started-at="2020-08-09T14:04:15 IST" finished-at="2020-08-09T14:04:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterMethod -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="setupBeforeMethod" is-config="true" duration-ms="1" started-at="2020-08-09T14:04:15 IST" finished-at="2020-08-09T14:04:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="TC03(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.Integer, java.lang.Long, org.testng.ITestContext)[pri:29, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="TC03" duration-ms="853" started-at="2020-08-09T14:04:15 IST" data-provider="Data" finished-at="2020-08-09T14:04:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Appium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestPractise.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Virar West]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Mumbai,]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Texas]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10011]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1234567898]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[9876543212]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[org.testng.TestRunner@751e664e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03 -->
+        <test-method status="PASS" signature="setupAfterMethod()[pri:0, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="setupAfterMethod" is-config="true" duration-ms="0" started-at="2020-08-09T14:04:16 IST" finished-at="2020-08-09T14:04:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterMethod -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="setupBeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-09T14:04:16 IST" finished-at="2020-08-09T14:04:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="TC04(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.Integer, java.lang.Long)[pri:30, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="TC04" duration-ms="1461" started-at="2020-08-09T14:04:16 IST" data-provider="DataTwo" finished-at="2020-08-09T14:04:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Appium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestPractise.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Virar West]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Mumbai,]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Iowa]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10011]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1234567898]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[9876543212]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04 -->
+        <test-method status="PASS" signature="setupAfterMethod()[pri:0, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="setupAfterMethod" is-config="true" duration-ms="0" started-at="2020-08-09T14:04:17 IST" finished-at="2020-08-09T14:04:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterMethod -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="setupBeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-09T14:04:17 IST" finished-at="2020-08-09T14:04:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="TC05()[pri:31, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="TC05" duration-ms="2186" started-at="2020-08-09T14:04:17 IST" finished-at="2020-08-09T14:04:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05 -->
+        <test-method status="PASS" signature="setupAfterMethod()[pri:0, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="setupAfterMethod" is-config="true" duration-ms="0" started-at="2020-08-09T14:04:20 IST" finished-at="2020-08-09T14:04:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterMethod -->
+        <test-method status="PASS" signature="setupBeforeMethod()[pri:0, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="setupBeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-09T14:04:20 IST" finished-at="2020-08-09T14:04:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method status="PASS" signature="TC06()[pri:32, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="TC06" duration-ms="1765" started-at="2020-08-09T14:04:20 IST" finished-at="2020-08-09T14:04:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06 -->
+        <test-method status="PASS" signature="setupAfterMethod()[pri:0, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="setupAfterMethod" is-config="true" duration-ms="1" started-at="2020-08-09T14:04:21 IST" finished-at="2020-08-09T14:04:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterMethod -->
+        <test-method status="PASS" signature="setupAfterClass()[pri:0, instance:com.qa.testcases.PageAddress_Test@369f73a2]" name="setupAfterClass" is-config="true" duration-ms="0" started-at="2020-08-09T14:04:21 IST" finished-at="2020-08-09T14:04:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterClass -->
+      </class> <!-- com.qa.testcases.PageAddress_Test -->
+      <class name="com.qa.testcases.PageHome_Test">
+        <test-method status="PASS" signature="setupBeforeSuite()[pri:0, instance:com.qa.testcases.PageHome_Test@3b0143d3]" name="setupBeforeSuite" is-config="true" duration-ms="28915" started-at="2020-08-09T14:02:24 IST" finished-at="2020-08-09T14:02:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method status="PASS" signature="setupBeforeGroup()[pri:0, instance:com.qa.testcases.PageHome_Test@3b0143d3]" name="setupBeforeGroup" is-config="true" duration-ms="1" started-at="2020-08-09T14:02:53 IST" finished-at="2020-08-09T14:02:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeGroup -->
+        <test-method status="PASS" signature="setupBeforeTest()[pri:0, instance:com.qa.testcases.PageHome_Test@3b0143d3]" name="setupBeforeTest" is-config="true" duration-ms="136" started-at="2020-08-09T14:02:53 IST" finished-at="2020-08-09T14:02:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method status="PASS" signature="setupAfterGroup()[pri:0, instance:com.qa.testcases.PageHome_Test@3b0143d3]" name="setupAfterGroup" is-config="true" duration-ms="1" started-at="2020-08-09T14:06:01 IST" finished-at="2020-08-09T14:06:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterGroup -->
+        <test-method status="PASS" signature="setupAfterSuite()[pri:0, instance:com.qa.testcases.PageHome_Test@3b0143d3]" name="setupAfterSuite" is-config="true" duration-ms="1" started-at="2020-08-09T14:06:01 IST" finished-at="2020-08-09T14:06:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
+      </class> <!-- com.qa.testcases.PageHome_Test -->
+    </test> <!-- Demo Test -->
+  </suite> <!-- demo.com -->
+</testng-results>

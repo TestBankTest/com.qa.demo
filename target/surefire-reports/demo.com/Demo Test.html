@@ -1,0 +1,294 @@
+<html>
+<head>
+<title>TestNG:  Demo Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Demo Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>43/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 09 14:02:53 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>188 seconds (188459 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Sanity </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testcases.PageSignIn_Test.TC01()'><b>TC01</b><br>Test class: com.qa.testcases.PageSignIn_Test</td>
+<td></td>
+<td>2</td>
+<td>com.qa.testcases.PageSignIn_Test@731a74c</td></tr>
+<tr>
+<td title='com.qa.testcases.PageAddress_Test.TC01()'><b>TC01</b><br>Test class: com.qa.testcases.PageAddress_Test</td>
+<td></td>
+<td>1</td>
+<td>com.qa.testcases.PageAddress_Test@369f73a2</td></tr>
+<tr>
+<td title='com.qa.testcases.PageShipping_Test.TC01()'><b>TC01</b><br>Test class: com.qa.testcases.PageShipping_Test<br>Parameters: org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageShipping_Test@1f28c152</td></tr>
+<tr>
+<td title='com.qa.testcases.PagePayment_Test.TC01()'><b>TC01</b><br>Test class: com.qa.testcases.PagePayment_Test<br>Parameters: Faded Short Sleeve T-shirts, Orange, S, In stock, $16.51</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PagePayment_Test@7d907bac</td></tr>
+<tr>
+<td title='com.qa.testcases.PageBankWirePayment_Test.TC01()'><b>TC01</b><br>Test class: com.qa.testcases.PageBankWirePayment_Test<br>Parameters: org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageBankWirePayment_Test@7791a895</td></tr>
+<tr>
+<td title='com.qa.testcases.PageOrderConfirmation_Test.TC01()'><b>TC01</b><br>Test class: com.qa.testcases.PageOrderConfirmation_Test<br>Parameters: org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageOrderConfirmation_Test@3a5ed7a6</td></tr>
+<tr>
+<td title='com.qa.testcases.PageOrderHistory_Test.TC01()'><b>TC01</b><br>Test class: com.qa.testcases.PageOrderHistory_Test<br>Parameters: org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageOrderHistory_Test@6325a3ee</td></tr>
+<tr>
+<td title='com.qa.testcases.PageSignIn_Test.TC02()'><b>TC02</b><br>Test class: com.qa.testcases.PageSignIn_Test</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageSignIn_Test@731a74c</td></tr>
+<tr>
+<td title='com.qa.testcases.PageAddress_Test.TC02()'><b>TC02</b><br>Test class: com.qa.testcases.PageAddress_Test</td>
+<td></td>
+<td>5</td>
+<td>com.qa.testcases.PageAddress_Test@369f73a2</td></tr>
+<tr>
+<td title='com.qa.testcases.PageShipping_Test.TC02()'><b>TC02</b><br>Test class: com.qa.testcases.PageShipping_Test</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageShipping_Test@1f28c152</td></tr>
+<tr>
+<td title='com.qa.testcases.PagePayment_Test.TC02()'><b>TC02</b><br>Test class: com.qa.testcases.PagePayment_Test<br>Parameters: org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>1</td>
+<td>com.qa.testcases.PagePayment_Test@7d907bac</td></tr>
+<tr>
+<td title='com.qa.testcases.PageBankWirePayment_Test.TC02()'><b>TC02</b><br>Test class: com.qa.testcases.PageBankWirePayment_Test</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageBankWirePayment_Test@7791a895</td></tr>
+<tr>
+<td title='com.qa.testcases.PageOrderConfirmation_Test.TC02()'><b>TC02</b><br>Test class: com.qa.testcases.PageOrderConfirmation_Test</td>
+<td></td>
+<td>5</td>
+<td>com.qa.testcases.PageOrderConfirmation_Test@3a5ed7a6</td></tr>
+<tr>
+<td title='com.qa.testcases.PageOrderHistory_Test.TC02()'><b>TC02</b><br>Test class: com.qa.testcases.PageOrderHistory_Test<br>Parameters: org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageOrderHistory_Test@6325a3ee</td></tr>
+<tr>
+<td title='com.qa.testcases.PageAddress_Test.TC03()'><b>TC03</b><br>Test class: com.qa.testcases.PageAddress_Test<br>Parameters: Test, Appium, TestPractise.com, Mumbai, Virar West, Mumbai,, Texas, 10011, United States, 1234567898, 9876543212, org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageAddress_Test@369f73a2</td></tr>
+<tr>
+<td title='com.qa.testcases.PageShipping_Test.TC03()'><b>TC03</b><br>Test class: com.qa.testcases.PageShipping_Test</td>
+<td></td>
+<td>31</td>
+<td>com.qa.testcases.PageShipping_Test@1f28c152</td></tr>
+<tr>
+<td title='com.qa.testcases.PageBankWirePayment_Test.TC03()'><b>TC03</b><br>Test class: com.qa.testcases.PageBankWirePayment_Test</td>
+<td></td>
+<td>2</td>
+<td>com.qa.testcases.PageBankWirePayment_Test@7791a895</td></tr>
+<tr>
+<td title='com.qa.testcases.PageSignIn_Test.TC04()'><b>TC04</b><br>Test class: com.qa.testcases.PageSignIn_Test</td>
+<td></td>
+<td>1</td>
+<td>com.qa.testcases.PageSignIn_Test@731a74c</td></tr>
+<tr>
+<td title='com.qa.testcases.PageAddress_Test.TC04()'><b>TC04</b><br>Test class: com.qa.testcases.PageAddress_Test<br>Parameters: Test, Appium, TestPractise.com, Mumbai, Virar West, Mumbai,, Iowa, 10011, United States, 1234567898, 9876543212</td>
+<td></td>
+<td>1</td>
+<td>com.qa.testcases.PageAddress_Test@369f73a2</td></tr>
+<tr>
+<td title='com.qa.testcases.PageShipping_Test.TC04()'><b>TC04</b><br>Test class: com.qa.testcases.PageShipping_Test</td>
+<td></td>
+<td>15</td>
+<td>com.qa.testcases.PageShipping_Test@1f28c152</td></tr>
+<tr>
+<td title='com.qa.testcases.PageOrderHistory_Test.TC04()'><b>TC04</b><br>Test class: com.qa.testcases.PageOrderHistory_Test<br>Parameters: org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>31</td>
+<td>com.qa.testcases.PageOrderHistory_Test@6325a3ee</td></tr>
+<tr>
+<td title='com.qa.testcases.PageSignIn_Test.TC05()'><b>TC05</b><br>Test class: com.qa.testcases.PageSignIn_Test</td>
+<td></td>
+<td>1</td>
+<td>com.qa.testcases.PageSignIn_Test@731a74c</td></tr>
+<tr>
+<td title='com.qa.testcases.PageAddress_Test.TC05()'><b>TC05</b><br>Test class: com.qa.testcases.PageAddress_Test</td>
+<td></td>
+<td>2</td>
+<td>com.qa.testcases.PageAddress_Test@369f73a2</td></tr>
+<tr>
+<td title='com.qa.testcases.PageShipping_Test.TC05()'><b>TC05</b><br>Test class: com.qa.testcases.PageShipping_Test</td>
+<td></td>
+<td>1</td>
+<td>com.qa.testcases.PageShipping_Test@1f28c152</td></tr>
+<tr>
+<td title='com.qa.testcases.PageOrderHistory_Test.TC05()'><b>TC05</b><br>Test class: com.qa.testcases.PageOrderHistory_Test<br>Parameters: org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageOrderHistory_Test@6325a3ee</td></tr>
+<tr>
+<td title='com.qa.testcases.PageSignIn_Test.TC06()'><b>TC06</b><br>Test class: com.qa.testcases.PageSignIn_Test</td>
+<td></td>
+<td>1</td>
+<td>com.qa.testcases.PageSignIn_Test@731a74c</td></tr>
+<tr>
+<td title='com.qa.testcases.PageAddress_Test.TC06()'><b>TC06</b><br>Test class: com.qa.testcases.PageAddress_Test</td>
+<td></td>
+<td>1</td>
+<td>com.qa.testcases.PageAddress_Test@369f73a2</td></tr>
+<tr>
+<td title='com.qa.testcases.PageOrderHistory_Test.TC06()'><b>TC06</b><br>Test class: com.qa.testcases.PageOrderHistory_Test</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageOrderHistory_Test@6325a3ee</td></tr>
+<tr>
+<td title='com.qa.testcases.PageSignIn_Test.TC07()'><b>TC07</b><br>Test class: com.qa.testcases.PageSignIn_Test</td>
+<td></td>
+<td>2</td>
+<td>com.qa.testcases.PageSignIn_Test@731a74c</td></tr>
+<tr>
+<td title='com.qa.testcases.PageOrderHistory_Test.TC07()'><b>TC07</b><br>Test class: com.qa.testcases.PageOrderHistory_Test<br>Parameters: Test, Appium, TestPractise.com, Mumbai, Virar West, Mumbai,, Texas, 10011, United States, 1234567898, 9876543212, org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageOrderHistory_Test@6325a3ee</td></tr>
+<tr>
+<td title='com.qa.testcases.PageSignIn_Test.TC08()'><b>TC08</b><br>Test class: com.qa.testcases.PageSignIn_Test</td>
+<td></td>
+<td>1</td>
+<td>com.qa.testcases.PageSignIn_Test@731a74c</td></tr>
+<tr>
+<td title='com.qa.testcases.PageOrderHistory_Test.TC08()'><b>TC08</b><br>Test class: com.qa.testcases.PageOrderHistory_Test<br>Parameters: Test, Appium, TestPractise.com, Mumbai, Virar West, Mumbai,, Iowa, 10011, United States, 1234567898, 9876543212</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageOrderHistory_Test@6325a3ee</td></tr>
+<tr>
+<td title='com.qa.testcases.PageSignIn_Test.TC09()'><b>TC09</b><br>Test class: com.qa.testcases.PageSignIn_Test<br>Parameters: org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>2</td>
+<td>com.qa.testcases.PageSignIn_Test@731a74c</td></tr>
+<tr>
+<td title='com.qa.testcases.PageOrderHistory_Test.TC09()'><b>TC09</b><br>Test class: com.qa.testcases.PageOrderHistory_Test<br>Parameters: Faded Short Sleeve T-shirts, Orange, S, $16.51, org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageOrderHistory_Test@6325a3ee</td></tr>
+<tr>
+<td title='com.qa.testcases.PageOrderHistory_Test.TC10()'><b>TC10</b><br>Test class: com.qa.testcases.PageOrderHistory_Test<br>Parameters: org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>3</td>
+<td>com.qa.testcases.PageOrderHistory_Test@6325a3ee</td></tr>
+<tr>
+<td title='com.qa.testcases.PageOrderHistory_Test.TC11()'><b>TC11</b><br>Test class: com.qa.testcases.PageOrderHistory_Test<br>Parameters: org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>1</td>
+<td>com.qa.testcases.PageOrderHistory_Test@6325a3ee</td></tr>
+<tr>
+<td title='com.qa.testcases.PageCart_Test.verifyCheckOut()'><b>verifyCheckOut</b><br>Test class: com.qa.testcases.PageCart_Test<br>Parameters: Faded Short Sleeve T-shirts, $16.51, 1, org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>4</td>
+<td>com.qa.testcases.PageCart_Test@5a8e6209</td></tr>
+<tr>
+<td title='com.qa.testcases.PageSummary_Test.verify_CartProductDetails()'><b>verify_CartProductDetails</b><br>Test class: com.qa.testcases.PageSummary_Test<br>Parameters: Faded Short Sleeve T-shirts, $16.51, Orange, S</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageSummary_Test@4b4523f8</td></tr>
+<tr>
+<td title='com.qa.testcases.PageSummary_Test.verify_ContinueShoppingFeature()'><b>verify_ContinueShoppingFeature</b><br>Test class: com.qa.testcases.PageSummary_Test</td>
+<td></td>
+<td>2</td>
+<td>com.qa.testcases.PageSummary_Test@4b4523f8</td></tr>
+<tr>
+<td title='com.qa.testcases.PageSummary_Test.verify_ProceedToCheckOutFeature()'><b>verify_ProceedToCheckOutFeature</b><br>Test class: com.qa.testcases.PageSummary_Test</td>
+<td></td>
+<td>33</td>
+<td>com.qa.testcases.PageSummary_Test@4b4523f8</td></tr>
+<tr>
+<td title='com.qa.testcases.PageSummary_Test.verify_ProductAvailabilityStatus()'><b>verify_ProductAvailabilityStatus</b><br>Test class: com.qa.testcases.PageSummary_Test<br>Parameters: Faded Short Sleeve T-shirts, $16.51, In stock</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageSummary_Test@4b4523f8</td></tr>
+<tr>
+<td title='com.qa.testcases.PageSummary_Test.verify_ProductCount()'><b>verify_ProductCount</b><br>Test class: com.qa.testcases.PageSummary_Test<br>Parameters: org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageSummary_Test@4b4523f8</td></tr>
+<tr>
+<td title='com.qa.testcases.PageSummary_Test.verify_ProductDetails()'><b>verify_ProductDetails</b><br>Test class: com.qa.testcases.PageSummary_Test<br>Parameters: Faded Short Sleeve T-shirts, org.testng.TestRunner@751e664e</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testcases.PageSummary_Test@4b4523f8</td></tr>
+</table><p>
+</body>
+</html>

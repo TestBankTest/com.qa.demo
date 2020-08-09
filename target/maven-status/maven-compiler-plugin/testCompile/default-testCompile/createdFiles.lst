@@ -1,0 +1,17 @@
+com\qa\testcases\PagePayment_Test.class
+com\qa\testcases\VerifySignOff_Test.class
+com\qa\testcases\PageProductDetails_Test.class
+com\qa\testcases\PageSignIn_Test.class
+com\qa\testcases\PageGoogleSignIn.class
+com\qa\testcases\PageBankWirePayment_Test.class
+com\qa\testcases\PageCart_Test.class
+com\qa\testcases\PageOrderConfirmation_Test.class
+com\qa\testcases\Demo.class
+com\qa\testbase\TestBase.class
+com\qa\testcases\PageOrderHistory_Test.class
+com\qa\testcases\PageShipping_Test.class
+com\qa\testcases\PageAddress_Test.class
+com\qa\testcases\PageSummary_Test.class
+com\qa\testcases\PageEmail_Test.class
+com\qa\testcases\PageCheckPayment_Test.class
+com\qa\testcases\PageHome_Test.class
