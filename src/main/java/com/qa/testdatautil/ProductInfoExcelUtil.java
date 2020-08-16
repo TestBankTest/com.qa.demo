@@ -4,6 +4,7 @@ import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.testng.annotations.Test;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
@@ -602,14 +603,29 @@ public class ProductInfoExcelUtil extends ExcelBaseUtil{
                     break;
                 }
             }
-
-
-
         }catch (Exception ae){
             ae.printStackTrace();
         } return userName;
 
 
+    }
+
+    public HashMap<String,String> getUserCredential(String filename,String sheetName,String userID) {
+        HashMap<String,String> userCredentials=new HashMap<>();
+        try {
+            Sheet sheet=this.getSheet(this.getWorkbook(filename),sheetName);
+            Integer totalColumnCount=this.getTotalColumnCount(sheet,0);
+            Integer totalRowCount=this.getTotalRowCount(sheet);
+            for(int i=0;i<totalRowCount;i++) {
+                if(this.getData(sheet,i,0).trim().equals(userID.trim())) {
+                    userCredentials.put(this.getData(sheet,0,1).trim(),this.getData(sheet,i,1).trim());
+                    userCredentials.put(this.getData(sheet,0,2).trim(),this.getData(sheet,i,2).trim());
+                    break;
+                }
+            }
+        }catch (Exception ae) {
+            ae.printStackTrace();
+        }return userCredentials;
     }
 
     //==========================================================================
@@ -638,6 +654,12 @@ public class ProductInfoExcelUtil extends ExcelBaseUtil{
 
     }
 
+  //=============================================================================
+
+
+
+
+    }
 
 
 
@@ -676,9 +698,3 @@ public class ProductInfoExcelUtil extends ExcelBaseUtil{
 
 
 
-
-
-
-
-
-}

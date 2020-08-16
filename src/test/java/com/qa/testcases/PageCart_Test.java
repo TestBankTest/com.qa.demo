@@ -2,6 +2,7 @@ package com.qa.testcases;
 
 import com.qa.pages.PageCart;
 import com.qa.pages.PageHome;
+import com.qa.pages.PageProductCartView;
 import com.qa.testbase.TestBase;
 import com.qa.testdatautil.ExcelFilesNames;
 import com.qa.testdatautil.ExcelFilesPath;
@@ -23,6 +24,7 @@ public class PageCart_Test extends TestBase {
 
 PageHome pageHome;
 PageCart pageCart;
+PageProductCartView pageProductCartView;
 HashMap<String,Double>productInfo;
 Integer productCount=0;
 double totalAmount=0.0;
@@ -67,12 +69,13 @@ public void verifyProductDetails(String productName,String productPrice,String p
     testReportUtil.configureTest("verify_ProductDetails");
     if (this.pageHome.getProductAvailabilityStatus(productName, productPrice) == 1) {
         this.pageHome.clkAddToCart(productName, productPrice).click();
+        this.pageProductCartView=new PageProductCartView(driver);
         productStatus = true;
         productCount = productCount + 1;
     }else{ productStatus=false;}
 
     Assert.assertTrue(productStatus,productName+" Product not found on home page.");
-    this.pageHome.clkBtnCloseFromCartView();
+    this.pageProductCartView.clkBtnCloseFromCartView();
     actionsHandleUtil.moveElement(this.pageHome.getLnkLblCart());
     this.pageCart=new PageCart(this.driver);
 
@@ -110,13 +113,14 @@ public void verifyShippingCost(String productName,String productPrice) {
 
         if (this.pageHome.getProductAvailabilityStatus(productName, productPrice) == 1) {
             this.pageHome.clkAddToCart(productName, productPrice).click();
+            this.pageProductCartView=new PageProductCartView(driver);
             productStatus = true;
             productCount = productCount + 1;
         }else{productStatus=false;}
 
         Assert.assertTrue(productStatus,productName+" Product not found on home page");
 
-        this.pageHome.clkBtnCloseFromCartView();
+        this.pageProductCartView.clkBtnCloseFromCartView();
         actionsHandleUtil.moveElement(this.pageHome.getLnkLblCart());
         this.pageCart=new PageCart(this.driver);
         if(this.pageCart.getProduct(productName,productPrice) == 1){
@@ -144,12 +148,13 @@ public void verifyProductQuantity(String productName,String productPrice){
 
         if (this.pageHome.getProductAvailabilityStatus(productName, productPrice) == 1) {
             this.pageHome.clkAddToCart(productName, productPrice).click();
+            this.pageProductCartView=new PageProductCartView(driver);
             productStatus = true;
             productCount = productCount + 1;
         }else{productStatus=false;}
 
         Assert.assertTrue(productStatus,productName+" Product not found on home page");
-        this.pageHome.clkBtnCloseFromCartView();
+        this.pageProductCartView.clkBtnCloseFromCartView();
         actionsHandleUtil.moveElement(this.pageHome.getLnkLblCart());
         this.pageCart=new PageCart(this.driver);
 
@@ -164,7 +169,8 @@ public void verifyProductQuantity(String productName,String productPrice){
         softAssert.assertEquals(Integer.valueOf(this.pageHome.doGetText(this.pageCart.getCartProductQuantity(productName,productPrice))),productCount,"Product quantity count not matched on cart view page");
         totalAmount=totalAmount+Double.parseDouble(productPrice.replace("$",""));
         this.pageHome.clkAddToCart(productName, productPrice).click();
-        this.pageHome.clkBtnCloseFromCartView();
+        this.pageProductCartView=new PageProductCartView(driver);
+        this.pageProductCartView.clkBtnCloseFromCartView();
         productCount=productCount+1;
         totalAmount=totalAmount+Double.parseDouble(productPrice.replace("$",""));
         actionsHandleUtil.moveElement(this.pageHome.getLnkLblCart());
@@ -189,13 +195,14 @@ public void verifyTotalCost(String productName,String productPrice){
     testReportUtil.configureTest("verify_TotalCost");
         if (this.pageHome.getProductAvailabilityStatus(productName, productPrice) == 1) {
             this.pageHome.clkAddToCart(productName, productPrice).click();
+            this.pageProductCartView=new PageProductCartView(driver);
             productStatus = true;
             productCount = productCount + 1;
             productInfo.put(productName, Double.parseDouble(productPrice.replace("$", "")));
             totalAmount = totalAmount +productInfo.get(productName);
         }else {productStatus=false;}
         Assert.assertTrue(productStatus, productName+" Product not found on home page");
-        this.pageHome.clkBtnCloseFromCartView();
+        this.pageProductCartView.clkBtnCloseFromCartView();
 
         if (productCount == 2) {
             actionsHandleUtil.moveElement(this.pageHome.getLnkLblCart());
@@ -235,6 +242,7 @@ public void verifyRemoveProduct(String productName,String productPrice) throws I
     testReportUtil.configureTest("verify_RemoveProduct");
         if (this.pageHome.getProductAvailabilityStatus(productName, productPrice) == 1) {
             this.pageHome.clkAddToCart(productName, productPrice).click();
+            this.pageProductCartView=new PageProductCartView(driver);
             productStatus = true;
             productCount = productCount + 1;
             productInfo.put(productName, Double.parseDouble(productPrice.replace("$", "")));
@@ -242,7 +250,7 @@ public void verifyRemoveProduct(String productName,String productPrice) throws I
         }else{productStatus=false;}
 
         Assert.assertTrue(productStatus, productName+" Product not found on home page");
-        this.pageHome.clkBtnCloseFromCartView();
+        this.pageProductCartView.clkBtnCloseFromCartView();
 
         if (productCount == 2) {
             actionsHandleUtil.moveElement(this.pageHome.getLnkLblCart());
@@ -298,12 +306,12 @@ public void verifyCheckOut(String productName, String productPrice, Integer prod
     testReportUtil.configureTest("verify_CheckOut");
     if (this.pageHome.getProductAvailabilityStatus(productName, productPrice) == 1) {
         this.pageHome.clkAddToCart(productName, productPrice).click();
+        this.pageProductCartView=new PageProductCartView(driver);
         productStatus = true;
         iTestContext.setAttribute("productID",productID);
-        System.out.println("Product id from here " +iTestContext.getAttribute("productID"));
     }else {productStatus=false;}
     Assert.assertTrue(productStatus, productName+" Product not found on home page");
-    this.pageHome.clkBtnCloseFromCartView();
+    this.pageProductCartView.clkBtnCloseFromCartView();
     actionsHandleUtil.moveElement(this.pageHome.getLnkLblCart());
     this.pageCart = new PageCart(this.driver);
     iTestContext.setAttribute(productName,Integer.valueOf(this.pageCart.doGetText(this.pageCart.getCartProductQuantity(productName,productPrice))));

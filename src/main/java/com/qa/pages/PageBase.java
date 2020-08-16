@@ -296,6 +296,20 @@ public class PageBase extends Base {
         doClick(getBtnContinueShopping());
     }
 
+    public Integer doPresenceOfElement(String xPath){
+        Integer flag=0;
+        try{
+            if(driver.findElements(By.xpath(xPath)).size()>0){
+                flag=1;
+            }
+        }catch (NoSuchElementException noSuchElementException){
+            noSuchElementException.printStackTrace();
+            flag=0;
+        }return flag;
+    }
+
+
+
 
 
 

@@ -1,6 +1,7 @@
 package com.qa.testutil;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -49,6 +50,26 @@ public class WaitUtil {
             ae.printStackTrace();
         }return webDriverWait;
     }
+
+    public boolean executeSleepWait(WebElement element){
+        Integer flag=0;
+        try{
+            if(!element.getText().equals("")){
+                return true;
+            }else {
+                do{
+                    Thread.sleep(1000);
+                    if(!element.getText().equals("")){
+                        return true;
+                    }flag=flag+1;
+                }while (flag<5);
+            }
+
+        }catch (Exception ae){
+            ae.printStackTrace();
+        }return false;
+    }
+
 
 
 
